@@ -1,0 +1,11 @@
+{
+  "name": "container-filter",
+  "repo": "mteam/container-filter",
+  "dependencies": {
+    "component/bind": "*",
+    "mteam/component-model": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
