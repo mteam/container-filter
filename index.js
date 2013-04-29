@@ -4,6 +4,8 @@ var Container = require('component-model').Container,
 module.exports = Filter;
 
 function Filter(source, criteria) {
+  Container.call(this);
+
   this.source = source;
   this.criteria = criteria;
 
