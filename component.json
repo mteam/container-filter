@@ -3,7 +3,7 @@
   "repo": "mteam/container-filter",
   "dependencies": {
     "component/bind": "*",
-    "mteam/component-model": "*"
+    "mteam/container": "*"
   },
   "scripts": [
     "index.js"

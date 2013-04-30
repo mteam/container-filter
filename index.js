@@ -1,4 +1,4 @@
-var Container = require('component-model').Container,
+var Container = require('container'),
     bind = require('bind');
 
 module.exports = Filter;
@@ -15,7 +15,7 @@ function Filter(source, criteria) {
 }
 
 var proto = Filter.prototype =
-  Object.create(Container.prototype);;
+  Object.create(Container.prototype);
 
 proto.matches = function(container) {
   return (
